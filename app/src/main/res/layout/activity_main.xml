@@ -13,7 +13,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="0"
+        android:text="@string/visor_por_defecto"
         android:id="@+id/tvVisor"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -159,7 +159,7 @@
 
             <Button
                 style="@style/stlboton.borrado"
-                android:text="="
+                android:text="@string/signoIgual"
                 android:id="@+id/btIgual"
                 android:background="#e3c5c5"
                 android:onClick="botonIgual" />
