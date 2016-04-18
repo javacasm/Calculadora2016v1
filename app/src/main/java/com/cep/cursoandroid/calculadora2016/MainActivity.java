@@ -26,23 +26,37 @@ public class MainActivity extends AppCompatActivity {
     public void botonIgual(View v)
     {
         // obtener operando2
+        String strOperando2=tvVisor.getText().toString();
+        int iOperando2=Integer.parseInt(strOperando2);
 
-     /*   int resultado=0;
+        String resultado="0";
         switch (iIDBotonOperador)
         {
-            case R.id.btMas
-                resultado=iOperando1+iOperando2;
+            case R.id.btMas:
+                resultado= String.valueOf(iOperando1+iOperando2);
                 break;
 
-            case ....
+            case R.id.btMenos:
+                resultado=String.valueOf(iOperando1-iOperando2);
+                break;
 
-                break
-
-            case
-
+            case R.id.btPor:
+                resultado=String.valueOf(iOperando1*iOperando2);
+                break;
+            case R.id.btDividido:
+                try
+                {
+                    resultado=String.valueOf(iOperando1/iOperando2);
+                    // TODO: Usar resultado decimal
+                }
+                catch (Exception e)
+                {
+                    resultado=e.getMessage();
+                }
+                break;
         }
-       */
         // Mostrar resultado
+        tvVisor.setText(resultado);
 
     }
 
