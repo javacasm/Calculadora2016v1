@@ -34,7 +34,7 @@
             <Button
                 style="@style/stlboton"
                 android:text="7"
-                android:id="@+id/button"
+                android:id="@+id/bt7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonNumerico" />
@@ -42,7 +42,7 @@
             <Button
                 style="@style/stlboton"
                 android:text="8"
-                android:id="@+id/button9"
+                android:id="@+id/bt8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonNumerico" />
@@ -50,7 +50,7 @@
             <Button
                 style="@style/stlboton"
                 android:text="9"
-                android:id="@+id/button10"
+                android:id="@+id/bt9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonNumerico" />
@@ -58,7 +58,7 @@
             <Button
                 style="@style/stlboton.Operadores"
                 android:text="+"
-                android:id="@+id/button11"
+                android:id="@+id/btMas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonOperador" />
@@ -78,16 +78,16 @@
 
             <Button
                 style="@style/stlboton"
-                android:text="8"
-                android:id="@+id/button2"
+                android:text="5"
+                android:id="@+id/bt5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonNumerico" />
 
             <Button
                 style="@style/stlboton"
-                android:text="9"
-                android:id="@+id/button3"
+                android:text="6"
+                android:id="@+id/bt6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonNumerico" />
@@ -95,7 +95,7 @@
             <Button
                 style="@style/stlboton.Operadores"
                 android:text="-"
-                android:id="@+id/button4"
+                android:id="@+id/btMenos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonOperador" />
@@ -130,7 +130,7 @@
             <Button
                 style="@style/stlboton.Operadores"
                 android:text="/"
-                android:id="@+id/btMas"
+                android:id="@+id/btDividido"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonOperador" />
@@ -144,7 +144,7 @@
             <Button
                 style="@style/stlboton.borrado"
                 android:text="C"
-                android:id="@+id/button5"
+                android:id="@+id/btC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonBorrado" />
@@ -167,7 +167,7 @@
             <Button
                 style="@style/stlboton.Operadores"
                 android:text="X"
-                android:id="@+id/button8"
+                android:id="@+id/btPor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="botonOperador" />
