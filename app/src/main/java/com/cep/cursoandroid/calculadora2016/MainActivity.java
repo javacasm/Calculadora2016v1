@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     int iOperando1;
     int iIDBotonOperador;
 
+
+    boolean bHayError=false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 catch (Exception e)
                 {
                     resultado=e.getMessage();
+                    bHayError=true;
                 }
                 break;
         }
@@ -85,6 +89,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void botonNumerico(View v)
     {
+
+        if(bHayError)
+        {
+            tvVisor.setText(R.string.visor_por_defecto);
+            bHayError=false;
+        }
+
         // saber el boton: su ID  getID()
         // saber el texto boton  getText()
         Button boton=(Button)v;
