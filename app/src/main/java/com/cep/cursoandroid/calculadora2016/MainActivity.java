@@ -57,7 +57,9 @@ public class MainActivity extends AppCompatActivity {
         // Guardo el operando1
             // Recupero la cadena de Visor
             // Convierto a int
-        // TODO: convertir string a int
+        String strOperando1=tvVisor.getText().toString();
+
+        iOperando1=Integer.parseInt(strOperando1);
 
         // Guardo el operador (signo)
         iIDBotonOperador= v.getId();
