@@ -16,15 +16,15 @@ public class MainActivity extends AppCompatActivity {
 
     // TODO: Fondo realista
     // TODO: Decimales:
-    //          botonPunto
-    //          Controlar que haya solo 1 punto
-    //          Cambiar los Operandos a tipo float (con sus conversiones)
-    //          Usar NaN y Infinity
-    //          Cambiar el fondo de tvVisor cuando hay error
-    //          Mostrar la operación que se está haciendo
-    //          Que no salga "0" al pulsar operador
-    //          Calculadora científica
-    //          Crear Layout apaisado
+    // TODO: botonPunto
+    // TODO: Controlar que haya solo 1 punto
+    // TODO: Cambiar los Operandos a tipo float (con sus conversiones)
+    // TODO: Usar NaN y Infinity
+    // TODO: Cambiar el fondo de tvVisor cuando hay error
+    // TODO: Mostrar la operación que se está haciendo
+    // TODO: Que no salga "0" al pulsar operador
+    // TODO: Calculadora científica
+    // TODO: Crear Layout apaisado
 
 
 
